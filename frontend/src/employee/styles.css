@@ -1,0 +1,34 @@
+.contentDiv {
+    display: inline-block;
+}
+
+.container {
+    width: 40vw;
+    margin: auto;
+    border: 2px solid #edf1f8;
+    border-radius: 40px;
+    margin-top: 20px;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 16%);
+    padding: 20px 30px;
+    font-family: Montserrat,sans-serif;
+    color: #1e2053;
+}
+
+.myImage {
+    text-align: center;
+    border-radius: 20px;
+    height: auto;
+    width: 100px;
+
+}
+
+.resizedImage {
+      width: 100%;
+        height: 400px;
+        background-size: 100% 100%;
+}
+
+.myImage:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
